@@ -1,5 +1,5 @@
 # bad-apple-quilt
-This is how I made Mesmerizer only using frames from Bad Apple. Code can be altered to create pretty much any video using only Bad Apple frames if you change the variables a bit.
+Code for how I made [Mesmerizer](https://drive.google.com/file/d/1vTed8ujfvQhJMnZfW27-M976UVNeX4kN/view?usp=sharing) only using frames from Bad Apple. Code can be altered to create pretty much any video using only Bad Apple frames if you change the variables a bit.
 
 ## Files
 * project.ipynb : Notebook that contains the process of creating Mesmerizer frames using Bad Apple frames

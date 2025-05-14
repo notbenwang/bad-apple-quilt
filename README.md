@@ -1,13 +1,12 @@
 # bad-apple-quilt
-I made Mesmerizer only using frames from Bad Apple. Code can be altered to create pretty much any video using only Bad Apple frames.
+This is how I made Mesmerizer only using frames from Bad Apple. Code can be altered to create pretty much any video using only Bad Apple frames if you change the variables a bit.
 ## Useful ffmpeg scripts
 
-To populate training and testing frame folders, I recommend ffmpeg.
+I recommend ffmpeg when dealing with video to image conversions. Below are some commands I found useful during my process.
 
 To populate the training frames:
 ```
 ffmpeg -i training/badapple.mp4 -r 30 training/frames/output_%04d.jpg
-ffmpeg -i testing/mesmer.mp4 -r 30 testing/frames/output_%04d.jpg
 ```
 To populate the testing frames:
 ```
